@@ -29,6 +29,10 @@ build/
 local.properties
 *.iml
 
+# Windows
+
+*.binlog
+
 # node.js
 #
 node_modules/
