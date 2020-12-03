@@ -989,10 +989,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^3.0.0"
 
-"@react-native-community/cli-debugger-ui@^4.9.0":
-  version "4.9.0"
-  resolved "https://registry.yarnpkg.com/@react-native-community/cli-debugger-ui/-/cli-debugger-ui-4.9.0.tgz#4177764ba69243c97aa26829d59d9501acb2bd71"
-  integrity sha512-fBFGamHm4VUrDqkBGnsrwQL8OC6Om7K6EBQb4xj0nWekpXt1HSa3ScylYHTTWwYcpRf9htGMRGiv4dQDY/odAw==
+"@react-native-community/cli-debugger-ui@^4.13.1":
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/@react-native-community/cli-debugger-ui/-/cli-debugger-ui-4.13.1.tgz#07de6d4dab80ec49231de1f1fbf658b4ad39b32c"
+  integrity sha512-UFnkg5RTq3s2X15fSkrWY9+5BKOFjihNSnJjTV2H5PtTUFbd55qnxxPw8CxSfK0bXb1IrSvCESprk2LEpqr5cg==
   dependencies:
     serve-static "^1.13.1"
 
@@ -1007,7 +1007,7 @@
     hermes-profile-transformer "^0.0.6"
     ip "^1.1.5"
 
-"@react-native-community/cli-platform-android@^4.13.0", "@react-native-community/cli-platform-android@^4.7.0":
+"@react-native-community/cli-platform-android@^4.10.0", "@react-native-community/cli-platform-android@^4.13.0":
   version "4.13.0"
   resolved "https://registry.yarnpkg.com/@react-native-community/cli-platform-android/-/cli-platform-android-4.13.0.tgz#922681ec82ee1aadd993598b814df1152118be02"
   integrity sha512-3i8sX8GklEytUZwPnojuoFbCjIRzMugCdzDIdZ9UNmi/OhD4/8mLGO0dgXfT4sMWjZwu3qjy45sFfk2zOAgHbA==
@@ -1023,7 +1023,7 @@
     slash "^3.0.0"
     xmldoc "^1.1.2"
 
-"@react-native-community/cli-platform-ios@^4.7.0":
+"@react-native-community/cli-platform-ios@^4.10.0":
   version "4.13.0"
   resolved "https://registry.yarnpkg.com/@react-native-community/cli-platform-ios/-/cli-platform-ios-4.13.0.tgz#a738915c68cac86df54e578b59a1311ea62b1aef"
   integrity sha512-6THlTu8zp62efkzimfGr3VIuQJ2514o+vScZERJCV1xgEi8XtV7mb/ZKt9o6Y9WGxKKkc0E0b/aVAtgy+L27CA==
@@ -1036,16 +1036,17 @@
     plist "^3.0.1"
     xcode "^2.0.0"
 
-"@react-native-community/cli-server-api@^4.13.0":
-  version "4.13.0"
-  resolved "https://registry.yarnpkg.com/@react-native-community/cli-server-api/-/cli-server-api-4.13.0.tgz#ef0e53fe0edc7356d62bca725ca47cb368f748a5"
-  integrity sha512-ER138ChLc1YYX7j9yE6fDm4DdNdsHThr+pla/B6iZoKje1r7TwymDdKaUvOsYalG7sWG9glW3bofcCq+Yh0Dvw==
+"@react-native-community/cli-server-api@^4.13.1":
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/@react-native-community/cli-server-api/-/cli-server-api-4.13.1.tgz#bee7ee9702afce848e9d6ca3dcd5669b99b125bd"
+  integrity sha512-vQzsFKD9CjHthA2ehTQX8c7uIzlI9A7ejaIow1I9RlEnLraPH2QqVDmzIdbdh5Od47UPbRzamCgAP8Bnqv3qwQ==
   dependencies:
-    "@react-native-community/cli-debugger-ui" "^4.9.0"
+    "@react-native-community/cli-debugger-ui" "^4.13.1"
     "@react-native-community/cli-tools" "^4.13.0"
     compression "^1.7.1"
     connect "^3.6.5"
     errorhandler "^1.5.0"
+    nocache "^2.1.0"
     pretty-format "^25.1.0"
     serve-static "^1.13.1"
     ws "^1.1.0"
@@ -1067,15 +1068,15 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/cli-types/-/cli-types-4.10.1.tgz#d68a2dcd1649d3b3774823c64e5e9ce55bfbe1c9"
   integrity sha512-ael2f1onoPF3vF7YqHGWy7NnafzGu+yp88BbFbP0ydoCP2xGSUzmZVw0zakPTC040Id+JQ9WeFczujMkDy6jYQ==
 
-"@react-native-community/cli@^4.7.0":
-  version "4.13.0"
-  resolved "https://registry.yarnpkg.com/@react-native-community/cli/-/cli-4.13.0.tgz#04d5032f9b2b423c61ceef6be83b1bcc8a37db75"
-  integrity sha512-R+1VehIQ6VTLf+e7YOwzJk0F9tstfeSC4xy7oT6GSgB3FnXbTJGHFUp4siyO68Ae/gzGqt8SiUO145teWkP+ZA==
+"@react-native-community/cli@^4.10.0":
+  version "4.13.1"
+  resolved "https://registry.yarnpkg.com/@react-native-community/cli/-/cli-4.13.1.tgz#60148723e77cafe3ae260317d6bffe91853a2d20"
+  integrity sha512-+/TeRVToADpQPSprsPkwi9KY8x64YcuJpjzMBVISwWP+aWzsIDuWJmyMXTADlCg2EBMJqJR7bn1W/IkfzVRCWA==
   dependencies:
     "@hapi/joi" "^15.0.3"
-    "@react-native-community/cli-debugger-ui" "^4.9.0"
+    "@react-native-community/cli-debugger-ui" "^4.13.1"
     "@react-native-community/cli-hermes" "^4.13.0"
-    "@react-native-community/cli-server-api" "^4.13.0"
+    "@react-native-community/cli-server-api" "^4.13.1"
     "@react-native-community/cli-tools" "^4.13.0"
     "@react-native-community/cli-types" "^4.10.1"
     chalk "^3.0.0"
@@ -1132,32 +1133,32 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/eslint-plugin/-/eslint-plugin-1.1.0.tgz#e42b1bef12d2415411519fd528e64b593b1363dc"
   integrity sha512-W/J0fNYVO01tioHjvYWQ9m6RgndVtbElzYozBq1ZPrHO/iCzlqoySHl4gO/fpCl9QEFjvJfjPgtPMTMlsoq5DQ==
 
-"@react-native-windows/cli@0.63.3":
-  version "0.63.3"
-  resolved "https://registry.yarnpkg.com/@react-native-windows/cli/-/cli-0.63.3.tgz#c788bbb25878cab545e94884d2983fc999005808"
-  integrity sha512-iTHq3X2LZO/gw3qAqM+WR9K4tY4fct8huSKgG9wohrUY5EBf9yVu7WKG8N6ImO5vAJqCYogvGG4sBSmp+DBu6w==
+"@react-native-windows/cli@0.63.5":
+  version "0.63.5"
+  resolved "https://registry.yarnpkg.com/@react-native-windows/cli/-/cli-0.63.5.tgz#d404e6bd0d5217064a0bb862b338d60230d197de"
+  integrity sha512-mc1yrIyoEqibdBrnt9rZ8v7rzi7AVQiH5E4DhQ9OTW7MBNz96zdeIkJX6K9Ny486hjD5HzhkEdzO+D63xQqtmQ==
   dependencies:
-    "@react-native-windows/telemetry" "^0.63.2"
+    "@react-native-windows/telemetry" "^0.63.4"
     chalk "^3.0.0"
     cli-spinners "^2.2.0"
     envinfo "^7.5.0"
     glob "^7.1.1"
     inquirer "^3.0.6"
     mustache "^4.0.1"
-    nuget-exe "4.9.2"
+    nuget-exe "5.8.0"
     ora "^3.4.0"
     semver "^7.1.3"
-    shelljs "^0.7.8"
+    shelljs "^0.8.4"
     username "^5.1.0"
     uuid "^3.3.2"
     xml-parser "^1.2.1"
     xmldom "^0.3.0"
     xpath "^0.0.27"
 
-"@react-native-windows/telemetry@^0.63.2":
-  version "0.63.2"
-  resolved "https://registry.yarnpkg.com/@react-native-windows/telemetry/-/telemetry-0.63.2.tgz#6810c2469607d6d0a4607fc690f9e7adc5b17925"
-  integrity sha512-JMOJSnIp06tdWFmPCiotvUmCYKHU4nbFm+PsiPAK/4TpIJ6kbmxrS586C/l6q2uUG4XcoupWxlzep2UzGnyfMQ==
+"@react-native-windows/telemetry@^0.63.4":
+  version "0.63.4"
+  resolved "https://registry.yarnpkg.com/@react-native-windows/telemetry/-/telemetry-0.63.4.tgz#940cffe1cb890ac22c76ba04af2284e1412c7faa"
+  integrity sha512-jTCLw1JcKVaNbRYq6KJIu72VcJ61a80ZjT6++KDJcLROA6DyRxiX3LhW5anIbV4Ww9vA5CNlU0SUb2pAIw8Jpw==
   dependencies:
     applicationinsights "^1.8.8"
 
@@ -5065,6 +5066,11 @@ nice-try@^1.0.4:
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
+nocache@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/nocache/-/nocache-2.1.0.tgz#120c9ffec43b5729b1d5de88cd71aa75a0ba491f"
+  integrity sha512-0L9FvHG3nfnnmaEQPjT9xhfN4ISk0A8/2j4M37Np4mcDesJjHgEUfgPhdCyZuFI954tjokaIj/A3NdpFNdEh4Q==
+
 node-fetch@^1.0.1:
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-1.7.3.tgz#980f6f72d85211a5347c6b2bc18c5b84c3eb47ef"
@@ -5140,10 +5146,10 @@ npm-run-path@^4.0.0:
   dependencies:
     path-key "^3.0.0"
 
-nuget-exe@4.9.2:
-  version "4.9.2"
-  resolved "https://registry.yarnpkg.com/nuget-exe/-/nuget-exe-4.9.2.tgz#85311b1a97d62b74d3609e7b846914732e54c6be"
-  integrity sha512-JRUhrBi+9K/We2pjbH462PK41tGNH217tt2NQaK2PX3I0SBOKCHAX2ZhSTwHeUgzZYGHSI0AatAUu50U/62QoA==
+nuget-exe@5.8.0:
+  version "5.8.0"
+  resolved "https://registry.yarnpkg.com/nuget-exe/-/nuget-exe-5.8.0.tgz#45287c4ad8308a5a7057913b32c08998fe7fdc82"
+  integrity sha512-m95SBWa+SJNOfR0GTwdQ3OwK2915Ts3XvajYx0iaOZYydwvz6reJyptiNGf+HQhvTe5viNiRAmGXxNww9obZjw==
 
 nullthrows@^1.1.1:
   version "1.1.1"
@@ -5644,13 +5650,13 @@ react-native-dotenv@^2.4.2:
   dependencies:
     dotenv "^8.0.0"
 
-react-native-windows@^0.63.0-0:
-  version "0.63.8"
-  resolved "https://registry.yarnpkg.com/react-native-windows/-/react-native-windows-0.63.8.tgz#69f9063e906cfc21334071317aa6a2d5108a6af6"
-  integrity sha512-6QLnkBb6lS9rRyhJvvriw2VtnU+I5EUsRCo31IPOZzJ73X9ngBC8kcl4LCIY+3OCvEQMNy2SRaUioSZiS3GhFQ==
+react-native-windows@0.63.11:
+  version "0.63.11"
+  resolved "https://registry.yarnpkg.com/react-native-windows/-/react-native-windows-0.63.11.tgz#fbb1c73f0bbb0d64614ca08f2e338e813225ba7e"
+  integrity sha512-fthP6RvKy44PCO30PgidfsLPZwnfOexfcI/R/xC3p7YEBGw4TGodHJb+9m3AJdkYXvHUW0zxneCEpQuzw9NVyw==
   dependencies:
     "@babel/runtime" "^7.8.4"
-    "@react-native-windows/cli" "0.63.3"
+    "@react-native-windows/cli" "0.63.5"
     abort-controller "^3.0.0"
     anser "^1.4.9"
     base64-js "^1.1.2"
@@ -5669,15 +5675,15 @@ react-native-windows@^0.63.0-0:
     use-subscription "^1.0.0"
     whatwg-fetch "^3.0.0"
 
-react-native@0.63.2:
-  version "0.63.2"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.63.2.tgz#eaebf3430577b37fbd66ef228a86b3408259ef8e"
-  integrity sha512-MkxHeJorUDzmQwKJrTfrFYMDRLyu9GSBpsFFMDX7X+HglVnaZi3CTzW2mRv1eIcazoseBOP2eJe+bnkyLl8Y2A==
+react-native@0.63.3:
+  version "0.63.3"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.63.3.tgz#4a7f6540e049ff41810887bbd1125abc4672f3bf"
+  integrity sha512-71wq13uNo5W8QVQnFlnzZ3AD+XgUBYGhpsxysQFW/hJ8GAt/J5o+Bvhy81FXichp6IBDJDh/JgfHH2gNji8dFA==
   dependencies:
     "@babel/runtime" "^7.0.0"
-    "@react-native-community/cli" "^4.7.0"
-    "@react-native-community/cli-platform-android" "^4.7.0"
-    "@react-native-community/cli-platform-ios" "^4.7.0"
+    "@react-native-community/cli" "^4.10.0"
+    "@react-native-community/cli-platform-android" "^4.10.0"
+    "@react-native-community/cli-platform-ios" "^4.10.0"
     abort-controller "^3.0.0"
     anser "^1.4.9"
     base64-js "^1.1.2"
@@ -6204,10 +6210,10 @@ shell-quote@^1.6.1:
   resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.2.tgz#67a7d02c76c9da24f99d20808fcaded0e0e04be2"
   integrity sha512-mRz/m/JVscCrkMyPqHc/bczi3OQHkLTqXHEFu0zDhK/qfv3UcOA4SVmRCLmos4bhjr9ekVQubj/R7waKapmiQg==
 
-shelljs@^0.7.8:
-  version "0.7.8"
-  resolved "https://registry.yarnpkg.com/shelljs/-/shelljs-0.7.8.tgz#decbcf874b0d1e5fb72e14b164a9683048e9acb3"
-  integrity sha1-3svPh0sNHl+3LhSxZKloMEjprLM=
+shelljs@^0.8.4:
+  version "0.8.4"
+  resolved "https://registry.yarnpkg.com/shelljs/-/shelljs-0.8.4.tgz#de7684feeb767f8716b326078a8a00875890e3c2"
+  integrity sha512-7gk3UZ9kOfPLIAbslLzyWeGiEqx9e3rxwZM0KE6EL8GlGwjym9Mrlx5/p33bWTu9YG6vcS4MBxYZDHYr5lr8BQ==
   dependencies:
     glob "^7.0.0"
     interpret "^1.0.0"

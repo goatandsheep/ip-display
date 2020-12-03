@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="76027b54-a3b3-46e6-9e73-222251f424cf"
+    Name="4e06d4e5-e6fd-4968-a0ba-837801641316"
     Publisher="CN=veree"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="76027b54-a3b3-46e6-9e73-222251f424cf" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="4e06d4e5-e6fd-4968-a0ba-837801641316" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>whatsMyIp</DisplayName>
