@@ -1124,10 +1124,10 @@
   resolved "https://registry.yarnpkg.com/@react-native-community/eslint-plugin/-/eslint-plugin-1.1.0.tgz#e42b1bef12d2415411519fd528e64b593b1363dc"
   integrity sha512-W/J0fNYVO01tioHjvYWQ9m6RgndVtbElzYozBq1ZPrHO/iCzlqoySHl4gO/fpCl9QEFjvJfjPgtPMTMlsoq5DQ==
 
-"@react-native-windows/cli@0.63.5":
-  version "0.63.5"
-  resolved "https://registry.yarnpkg.com/@react-native-windows/cli/-/cli-0.63.5.tgz#d404e6bd0d5217064a0bb862b338d60230d197de"
-  integrity sha512-mc1yrIyoEqibdBrnt9rZ8v7rzi7AVQiH5E4DhQ9OTW7MBNz96zdeIkJX6K9Ny486hjD5HzhkEdzO+D63xQqtmQ==
+"@react-native-windows/cli@0.63.9":
+  version "0.63.9"
+  resolved "https://registry.yarnpkg.com/@react-native-windows/cli/-/cli-0.63.9.tgz#ef2ba2550e8c6697d1342d75d83a48558b93a409"
+  integrity sha512-VnD/lcCW8twqO522AAy/T/FzB3eAGjMmX1I3upXZHTvJScg9j9km+TLhVWB9v//kerWctVT74EMcZoCpZbrtEQ==
   dependencies:
     "@react-native-windows/telemetry" "^0.63.4"
     chalk "^3.0.0"
@@ -5656,13 +5656,13 @@ react-native-dotenv@^2.4.2:
   dependencies:
     dotenv "^8.0.0"
 
-react-native-windows@0.63.11:
-  version "0.63.11"
-  resolved "https://registry.yarnpkg.com/react-native-windows/-/react-native-windows-0.63.11.tgz#fbb1c73f0bbb0d64614ca08f2e338e813225ba7e"
-  integrity sha512-fthP6RvKy44PCO30PgidfsLPZwnfOexfcI/R/xC3p7YEBGw4TGodHJb+9m3AJdkYXvHUW0zxneCEpQuzw9NVyw==
+react-native-windows@0.63.18:
+  version "0.63.18"
+  resolved "https://registry.yarnpkg.com/react-native-windows/-/react-native-windows-0.63.18.tgz#c1b905d0976af1ceaa10b6fe9ba75b7bf26cf355"
+  integrity sha512-oGeeik/5qluLk4U5kl+vYuJ7R4+tAMrH8CEIgTcWgn3dI00NUe7YsQj6x02vE5GR4FyA8WDSRf2iIle2CQ8+UA==
   dependencies:
     "@babel/runtime" "^7.8.4"
-    "@react-native-windows/cli" "0.63.5"
+    "@react-native-windows/cli" "0.63.9"
     abort-controller "^3.0.0"
     anser "^1.4.9"
     base64-js "^1.1.2"
